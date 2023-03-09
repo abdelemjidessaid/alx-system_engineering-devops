@@ -22,4 +22,6 @@
 >
 > **10-mirror_permissions** script that sets rw permissions to the owner and group, r to the other users of file named *hello*
 >
-> 
+> **11-directories_permissions** script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users
+>
+>
