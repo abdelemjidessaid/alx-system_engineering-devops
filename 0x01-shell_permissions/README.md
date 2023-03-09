@@ -20,4 +20,6 @@
 > 
 > **9-John_Doe** script that sets all permissions to the owner, rx to the group and wx to the other users of file named *hello*
 >
+> **10-mirror_permissions** script that sets rw permissions to the owner and group, r to the other users of file named *hello*
+>
 > 
