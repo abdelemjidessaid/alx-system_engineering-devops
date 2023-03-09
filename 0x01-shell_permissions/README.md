@@ -28,4 +28,6 @@
 >
 > **13-change_group** script changes the group owner to *school* for the file named *hello*
 >
-
+> **100-change_owner_and_group** script that changes the owner to *vincent* and group owner to *staff* for all files and directories in the working directory
+>
+>
