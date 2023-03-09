@@ -10,3 +10,5 @@
 >
 > **4-empty** script that creates an empty file named *hello*
 >
+> **5-execute** script that adds execute premission to the owner of a file named *hello*
+>
