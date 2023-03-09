@@ -26,4 +26,6 @@
 >
 > **12-directory_permissions** script that creates a directory called *my_dir* with permissions 751 in the working directory
 >
+> **13-change_group** script changes the group owner to *school* for the file named *hello*
 >
+
