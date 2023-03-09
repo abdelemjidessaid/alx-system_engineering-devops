@@ -16,4 +16,6 @@
 >
 > **7-everybody** script that adds execution permission to the owner and the group owner and the other users to the file named *hello*
 >
+> **8-James_Bond** script that sets the no permission to the owner, no permission to the group and all permission to the other users to the file named *hello*
+> 
 > 
