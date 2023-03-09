@@ -1,2 +1,1 @@
-# 0x01-shell_permissions
-> **0-iam_betty** is a script that switches the current user to the user *betty*
+> **1-who_am_i** script that print the effective username of the current user
