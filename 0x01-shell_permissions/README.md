@@ -18,4 +18,6 @@
 >
 > **8-James_Bond** script that sets the no permission to the owner, no permission to the group and all permission to the other users to the file named *hello*
 > 
+> **9-John_Doe** script that sets all permissions to the owner, rx to the group and wx to the other users of file named *hello*
+>
 > 
