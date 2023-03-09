@@ -12,3 +12,6 @@
 >
 > **5-execute** script that adds execute premission to the owner of a file named *hello*
 >
+> **6-multiple_permissions** script that adds execute permission to the owner and group owner and read permission to other users to the file *hello*
+>
+>
