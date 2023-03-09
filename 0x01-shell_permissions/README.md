@@ -30,4 +30,6 @@
 >
 > **100-change_owner_and_group** script that changes the owner to *vincent* and group owner to *staff* for all files and directories in the working directory
 >
+> **101-symbolic_link_permissions** script that changes the owner and the group owner of *_hello* to *vincent* and *staff* respectively
+>
 >
