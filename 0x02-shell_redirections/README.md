@@ -51,4 +51,6 @@
 >
 > **101-gifs** Script that  that lists all the files with a .gif extension in the current directory and all its sub-directories
 >
+> **102-acrostic** Script that that decodes acrostics that use the first letter of each line
+>
 >
