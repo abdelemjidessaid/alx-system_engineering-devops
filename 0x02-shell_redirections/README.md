@@ -12,3 +12,6 @@
 > **4-lastlines** Script that displays the last 10 lines of `/etc/passwd`
 >
 > **5-firstlines** Script that displays the first 10 lines of `5-firstlines`
+> 
+> **6-third_line** Script that displays the 3rd line of file named `iacta`
+>
