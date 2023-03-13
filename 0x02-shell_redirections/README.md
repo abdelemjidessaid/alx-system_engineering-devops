@@ -15,3 +15,8 @@
 > 
 > **6-third_line** Script that displays the 3rd line of file named `iacta`
 >
+> **7-file** Script that create a file named * \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) *
+>
+> **8-cwd_state** Script that create a file and put in it the result of the command *ls -la*
+>
+>
