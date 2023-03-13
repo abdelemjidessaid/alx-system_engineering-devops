@@ -21,4 +21,6 @@
 >
 > **9-duplicate_last_line** Script duplicates the last line of a file named *iacta*
 >
+> **10-no_more_js** Script that delete all .js files in the current dir and all subfolders
+>
 >
