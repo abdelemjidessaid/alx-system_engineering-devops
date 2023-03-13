@@ -29,4 +29,6 @@
 >
 > **13-unique** Script that takes a list of words as input and prints only words that appear exactly once
 >
+> **14-findthatword** Script that dipslays just line that contains the word of *root* in file namd `/etc/passwd`
+>
 >
