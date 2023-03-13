@@ -31,6 +31,8 @@
 >
 > **14-findthatword** Script that dipslays just line that contains the word of *root* in file namd `/etc/passwd`
 >
-> **15-countthatword** Script that Display the number of lines that contain the pattern "bin" in the file `/etc/passwd`
+> **15-countthatword** Script that display the number of lines that contain the pattern "bin" in the file `/etc/passwd`
+>
+> **16-whatsnext** Script that display lines containing the pattern “root” and 3 lines after them in the file `/etc/passwd`
 >
 >
