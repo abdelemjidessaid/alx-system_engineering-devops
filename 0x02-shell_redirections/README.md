@@ -43,4 +43,6 @@
 >
 > **20-hiago** Script that removes all letters c and C from input
 >
+> **21-reverse** Script that reverse its input
+>
 >
