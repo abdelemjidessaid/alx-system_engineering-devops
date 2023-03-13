@@ -27,4 +27,6 @@
 >
 > **12-newest_files** Script that display the newest 10 files in the current dir
 >
+> **13-unique** Script that takes a list of words as input and prints only words that appear exactly once
+>
 >

@@ -1,0 +1,2 @@
+#!/bin/bash
+cat list | tr '[:upper:]' '[:lower:]' | tr -s ' ' '\n' | sort | uniq -u
