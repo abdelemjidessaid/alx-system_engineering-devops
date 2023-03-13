@@ -19,4 +19,6 @@
 >
 > **8-cwd_state** Script that create a file and put in it the result of the command *ls -la*
 >
+> **9-duplicate_last_line** Script duplicates the last line of a file named *iacta*
+>
 >
