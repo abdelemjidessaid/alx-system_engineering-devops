@@ -23,4 +23,6 @@
 >
 > **10-no_more_js** Script that delete all .js files in the current dir and all subfolders
 >
-> 
+> **11-directories** Script that counts the number of directories and sub-directories in the current directory
+>
+>
