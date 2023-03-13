@@ -1,2 +1,2 @@
 #!/bin/bash
-tr '[:upper:]' '[:lower:]' | tr -s ' ' '\n' | sort | uniq -u
+tr -s ' ' '\n' | sort | uniq -u
