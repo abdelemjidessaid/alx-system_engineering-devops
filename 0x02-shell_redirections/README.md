@@ -5,4 +5,6 @@
 >
 > **1-confused_smiley** Script that displays a confused smiley
 >
+> **2-hellofile** Script that display the content of the */etc/passwd* file
+>
 > 
