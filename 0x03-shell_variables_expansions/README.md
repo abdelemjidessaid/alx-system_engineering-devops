@@ -33,5 +33,5 @@
 >
 > **102-odd** Script print out the odd files
 >
->
+> **103-water_and_stir** Script that adds the two numbers stored in the environment variables WATER and STIR and prints the result
 >
