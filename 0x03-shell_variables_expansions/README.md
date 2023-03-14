@@ -29,7 +29,7 @@
 >
 > **100-decimal_to_hexadecimal** Script converts number from base 10 to base 16
 >
->
+> **101-rot13** Script encrypt text with __ROT13__ encryption
 >
 >
 >
