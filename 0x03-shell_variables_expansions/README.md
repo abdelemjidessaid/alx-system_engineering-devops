@@ -31,7 +31,7 @@
 >
 > **101-rot13** Script encrypt text with __ROT13__ encryption
 >
->
+> **102-odd** Script print out the odd files
 >
 >
 >
