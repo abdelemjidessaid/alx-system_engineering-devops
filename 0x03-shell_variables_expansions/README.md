@@ -15,4 +15,8 @@
 >
 > **7-create_global_variable** Script that creates a Global Variable
 >
+> **8-true_knowledge** Script that increament a variable value's with 128 and print it
+>
+>
+>
 >
