@@ -27,4 +27,11 @@
 >
 > **13-print_float** Script that print formated floating number
 >
+> **100-decimal_to_hexadecimal** Script converts number from base 10 to base 16
+>
+>
+>
+>
+>
+>
 >
