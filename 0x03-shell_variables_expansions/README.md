@@ -7,5 +7,5 @@
 >
 > **3-paths** Script that count the number of dirs in the __PATH__
 >
-> 
+> **4-global_variables** Script that print the Global Variables
 >
