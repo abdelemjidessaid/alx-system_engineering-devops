@@ -25,6 +25,6 @@
 >
 > **12-combinations** Script that print a combinations of letters
 >
->
+> **13-print_float** Script that print formated floating number
 >
 >
