@@ -9,3 +9,10 @@
 >
 > **4-global_variables** Script that print the Global Variables
 >
+> **5-local_variables** Script that print the Local, Global variables and functions
+>
+>
+>
+>
+>
+>
