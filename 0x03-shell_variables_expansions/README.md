@@ -17,6 +17,6 @@
 >
 > **8-true_knowledge** Script that increament a variable value's with 128 and print it
 >
->
+> **9-divide_and_rule** Script that prints the result of POWER variable devided by DEVIDE variable
 >
 >
