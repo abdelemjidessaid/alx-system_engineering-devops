@@ -5,7 +5,7 @@
 >
 > **1-hello_you** Script that displays __hello user__ and user contains the current user
 >
+> **3-paths** Script that count the number of dirs in the __PATH__
 >
->
->
+> 
 >
