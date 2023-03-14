@@ -23,7 +23,7 @@
 >
 > **11-binary_to_decimal** Script that prints the value of variable with converting it from base 2 into base 10 number
 >
->
+> **12-combinations** Script that print a combinations of letters
 >
 >
 >
