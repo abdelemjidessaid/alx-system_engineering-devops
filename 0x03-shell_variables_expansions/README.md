@@ -11,7 +11,7 @@
 >
 > **5-local_variables** Script that print the Local, Global variables and functions
 >
->
+> **6-create_local_variable** Script that creates a Local Variable
 >
 >
 >
