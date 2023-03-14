@@ -13,6 +13,6 @@
 >
 > **6-create_local_variable** Script that creates a Local Variable
 >
->
+> **7-create_global_variable** Script that creates a Global Variable
 >
 >
