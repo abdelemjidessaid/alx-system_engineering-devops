@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # This script prints "Best School" for 10 times with for loop.
-for i in {1..10}; do
-	echo "Best School"
+array=("Best School")
+for i in {0..9}; do
+	echo "${array[i - i]}"
 done
 
