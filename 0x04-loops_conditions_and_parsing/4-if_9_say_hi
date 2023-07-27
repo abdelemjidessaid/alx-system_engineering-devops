@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Script that prints "Best School" 10 times and "Hi" 1 time in the line 10.
+
+i=0
+while [ $i -lt 10 ]; do
+	echo "Best School"
+	if [ $i -eq 8 ]; then
+		echo "Hi"
+	fi
+	i=$((i+1))
+done
+
