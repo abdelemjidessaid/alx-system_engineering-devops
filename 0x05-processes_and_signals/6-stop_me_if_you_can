@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Program that kill process of another program named 4-to_infinity.
+pkill -f "./4-to_infinity_and_beyond"
