@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Program that display a sentence infinitly and sleeps 2 seconds evert iteration.
+while [ 1 ]; do
+	echo "To infinity and beyond"
+	sleep 2
+done
