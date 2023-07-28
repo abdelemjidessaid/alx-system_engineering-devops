@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Program that prints `To infinity and beyond`.
+# And prints `I am invincible!!!` when it receives Signal of kill process.
+
+trap 'echo "I am invincible!!!"' SIGTERM
+while true; do
+	echo "To infinity and beyond"
+	sleep 2
+done
