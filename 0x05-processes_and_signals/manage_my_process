@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Program that writes `I am alive!` in /tmp/my_process file.
+
+while true; do
+	echo "I am alive!" >> /tmp/my_process
+	sleep 2
+done
