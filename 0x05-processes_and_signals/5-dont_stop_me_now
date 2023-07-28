@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Program that kill process of another program named 4-to_infinity.
+id=$(pgrep -a "bash" | grep "4-to_infinity" | cut -d' ' -f1)
+kill "$id"
