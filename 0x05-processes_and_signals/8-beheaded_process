@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Program that kill the 7-highlander program.
+
+id=$(pgrep -a "bash" | grep "7-highlander" | cut -d' ' -f1)
+kill -9 "$id"
