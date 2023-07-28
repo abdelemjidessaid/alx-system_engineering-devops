@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Program that dipslays all processes.
+ps -auxf
