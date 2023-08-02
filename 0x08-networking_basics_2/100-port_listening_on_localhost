@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Script that listens on porn 98.
+
+nc -l 98
