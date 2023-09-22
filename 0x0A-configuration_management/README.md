@@ -1,0 +1,94 @@
+# 0x0A-configuration_management
+
+<br>
+<br>
+<h4 align="center">
+    In this project we will learn and solve tasks about Puppet files.
+</h4>
+<br>
+<br>
+
+## Resources:
+
+read or watch:
+- [Intro to Configuration Management](https://intranet.alxswe.com/rltoken/GL30hu-aRcKzPOvK8JO-Bg)
+- [Puppet resource type: file](https://intranet.alxswe.com/rltoken/WON0M4DNRabf88KAG_pDUA) (check “Resource types” for all manifest types in the left menu)
+- [Puppet’s Declarative Language: Modeling Instead of Scripting](https://intranet.alxswe.com/rltoken/0V2fBdafkfKPMxA1umea3Q)
+- [Puppet lint](https://intranet.alxswe.com/rltoken/CRUMeEMdcX-UtbWsUM9xLQ)
+- [Puppet emacs mode](https://intranet.alxswe.com/rltoken/MzHXCntAkPzOqMnI6_rpWQ)
+
+## Requirements:
+
+### General
+
+
+* All your files should end with a new line
+* All your files will be interpreted on Ubuntu 20.04 LTS
+* A `README.md` file at the root of the folder of the project is mandatory
+* Your Puppet manifests must pass `puppet-lint` version `2.1.1` without any errors
+* Your Puppet manifests must run without error
+* Your Puppet manifests first line must be a comment explaining what the Puppet manifest is about
+* Your Puppet manifests files must end with the extension `.pp`
+
+
+## Note on Versioning
+
+Your Ubuntu 20.04 VM should have Puppet 5.5 preinstalled.
+
+### Install `puppet`
+
+```
+$ apt-get install -y ruby=1:2.7+1 --allow-downgrades
+$ apt-get install -y ruby-augeas
+$ apt-get install -y ruby-shadow
+$ apt-get install -y puppet
+```
+
+You do not need to attempt to upgrade versions. This project is simply a set of tasks to familiarize you with the basic level syntax which is virtually identical in newer versions of Puppet. 
+
+[Puppet 5 Docs](https://intranet.alxswe.com/rltoken/fsIr2xFkJHTkaXwqZFFcbA)
+
+### Install `puppet-lint`
+
+```
+$ gem install puppet-lint
+```
+
+## Tasks
+
+#### 0. Create a file
+
+Using Puppet, create a file in `/tmp`.
+
+Requirements:
+
+* File path is `/tmp/school`
+* File permission is `0744`
+* File owner is `www-data`
+* File group is `www-data`
+* File contains `I love Puppet`
+
+Example:
+
+```
+root@6712bef7a528:~# puppet-lint --version
+puppet-lint 2.5.2
+root@6712bef7a528:~# puppet-lint 0-create_a_file.pp
+root@6712bef7a528:~# 
+root@6712bef7a528:~# puppet apply 0-create_a_file.pp
+Notice: Compiled catalog for 6712bef7a528.ec2.internal in environment production in 0.04 seconds
+Notice: /Stage[main]/Main/File[school]/ensure: defined content as '{md5}f1b70c2a42a98d82224986a612400db9'
+Notice: Finished catalog run in 0.03 seconds
+root@6712bef7a528:~#
+root@6712bef7a528:~# ls -l /tmp/school
+-rwxr--r-- 1 www-data www-data 13 Mar 19 23:12 /tmp/school
+root@6712bef7a528:~# cat /tmp/school
+I love Puppetroot@6712bef7a528:~#
+```
+
+Repo:
+
+* GitHub repository: `alx-system_engineering-devops`
+* Directory: `0x0A-configuration_management`
+* File: `0-create_a_file.pp`
+
