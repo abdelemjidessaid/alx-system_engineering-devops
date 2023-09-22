@@ -54,6 +54,10 @@ You do not need to attempt to upgrade versions. This project is simply a set of 
 $ gem install puppet-lint
 ```
 
+<br><br>
+---------------
+<br><br>
+
 ## Tasks
 
 #### 0. Create a file
@@ -92,6 +96,10 @@ Repo:
 * Directory: `0x0A-configuration_management`
 * File: `0-create_a_file.pp`
 
+<br><br>
+---------------
+<br><br>
+
 #### 1. Install a package
 
 Using Puppet, install `flask` from `pip3`.
@@ -121,6 +129,9 @@ Repo:
 * Directory: `0x0A-configuration_management`
 * File: `1-install_a_package.pp`
 
+<br><br>
+---------------
+<br><br>
 
 #### 2. Execute a command
 
@@ -165,12 +176,9 @@ root@d391259bf577:/#
 ```
 
 
-
 Repo:
 
 * GitHub repository: `alx-system_engineering-devops`
 * Directory: `0x0A-configuration_management`
 * File: `2-execute_a_command.pp`
-
-
 
