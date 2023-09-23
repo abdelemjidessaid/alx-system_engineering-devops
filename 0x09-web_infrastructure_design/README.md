@@ -85,3 +85,22 @@ Requirements:
     -   Why having servers with all the same components (database, web server and application server) might be a problem
 
 Please, remember that everything must be written in English to further your technical ability in a variety of settings.
+
+### 3. Scale up (Advanced)
+
+Readme
+
+-   [Application server vs web server](https://intranet.alxswe.com/rltoken/toFi_SdFHyi2MaELB8ekqw)
+
+Requirements:
+
+-   You must add:
+    -   1 server
+    -   1 load-balancer (HAproxy) configured as cluster with the other one
+    -   Split components (web server, application server, database) with their own server
+-   You must be able to explain some specifics about this infrastructure:
+    -   For every additional element, why you are adding it
+
+Please, remember that everything must be written in English to further your technical ability in a variety of settings.
+
+[-> By Abdelemjid Essaid](https://github.com/abdelemjidessaid/alx-system_engineering-devops/tree/main/0x09-web_infrastructure_design)
