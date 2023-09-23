@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# program that creates a secure shell key.
+ssh-keygen -t rsa -b 4096 -f school -P betty
