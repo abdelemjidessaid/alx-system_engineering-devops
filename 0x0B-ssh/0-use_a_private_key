@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-ssh ubuntu@8.8.8.8
+# command to connect the user `ubuntu` with the server `54.144.153.224`
+# by the Secure Shell using public key in file `~/.ssh/school`.
+ssh ubuntu@54.144.153.224-i ~/.ssh/school
