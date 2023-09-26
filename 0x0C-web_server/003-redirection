@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# Update & install NGINX.
+sudo apt-get update
+sudo apt-get install -y nginx
+# Make the the default directories & the default home page of the website.
+sudo ufw allow 'Nginx Full'
+sudo chown ubuntu /var/www/html
+sudo rm -r /var/www/html/*
+sudo touch /var/www/html/index.html
+sudo chmod 777 /var/www/html/index.html
+sudo echo "Hello World!" > /var/www/html/index.html
+# Create the config file.
+sudo chmod 777 /etc/nginx/sites-available/default
+sudo printf %s "server {
+	listen 80;
+	listen [::]:80 default_server;
+	root /var/www/html;
+	index index.html index.htm;
+	location /redirect_me {
+		return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;
+	}
+}" >> /etc/nginx/sites-available/default
+# Restart the NGINX.
+sudo service nginx restart
