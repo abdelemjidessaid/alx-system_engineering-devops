@@ -4,7 +4,10 @@ sudo apt-get update
 sudo apt-get install nginx -y
 sudo ufw allow 'Nginx HTTP'
 sudo mkdir -p /var/www/html /var/www/error
-sudo chmod -R 755 /var/www
+sudo chmod -R 755 /var/www/html
+sudo touch /var/www/html/index.html
+sudo touch /var/www/html/404.html
+sudo chmod 755 /var/www/html/*.html
 echo "Hello World!" > /var/www/html/index.html
 echo "Ceci n'est pas une page" > /var/www/html/404.html
 config="server {
@@ -12,7 +15,7 @@ config="server {
     listen [::]:80 default_server;
     root /var/www/html;
     index index.html index.htm index.nginx-debian.html;
-    server_name_;
+    server_name _;
     add_header X-Served-By \$hostname;
 
     location / {
@@ -29,5 +32,7 @@ config="server {
     }
 }"
 
+sudo chmod 777 /etc/nginx/sites-enabled/default
 echo "$config" > /etc/nginx/sites-enabled/default
+sudo chmod 755 /etc/nginx/sites-enabled/default
 sudo service nginx restart
