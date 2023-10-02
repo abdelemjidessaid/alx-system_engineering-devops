@@ -4,11 +4,9 @@ sudo apt-get update
 sudo apt-get install nginx -y
 sudo ufw allow 'Nginx HTTP'
 sudo mkdir -p /var/www/html /var/www/error
-sudo chmod -R 777 /var/www/html
-sudo chmod -R 777 /var/www/error
+sudo chmod -R 755 /var/www/html
 sudo echo "Hello World!" > /var/www/html/index.html
 sudo echo "Ceci n'est pas une page" > /var/www/html/404.html
-sudo chmod -R 777 /etc/nginx/sites-enabled
 config="server {
     listen 80 default_server;
     listen [::]:80 default_server;
