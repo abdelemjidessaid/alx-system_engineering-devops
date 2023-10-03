@@ -1,3 +1,0 @@
-#!/usr/bin/bash
-# connect my web server 2.
-ssh -i ~/.ssh/school ubuntu@100.26.171.172
