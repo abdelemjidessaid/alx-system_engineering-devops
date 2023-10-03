@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+# script that adds a custom HTTP response header.
+sudo sed -i "server_name _/a \tadd_header X-Serverd-By $HOSTNAME;" /etc/nginx/sites-enabled/default
+# check for syntax erros.
+sudo nginx -t
+# restart the nginx.
+sudo service nginx restart
