@@ -35,7 +35,7 @@ For this project, we expect you to look at these concepts:
 
 <br><br>
 
-![concept image](./images/concept.png)
+![concept image](./images/concept.jpg)
 
 <br><br>
 
