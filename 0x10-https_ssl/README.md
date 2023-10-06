@@ -20,6 +20,7 @@ For this project, we expect you to look at these concepts:
 
 #### Read or watch:
 
+* [HAproxy commands to install certbot & config the server](https://gbeminiyi.hashnode.dev/installing-certbot-in-your-haproxy-load-balancer-server)
 * [What is HTTPS?](https://intranet.alxswe.com/rltoken/XT1BAiBL3Jpq1bn1q6IYXQ)
 * [What are the 2 main elements that SSL is providing](https://intranet.alxswe.com/rltoken/STj5WkAPACBxOvwB77Ycrw)
 * [HAProxy SSL termination on Ubuntu16.04](https://intranet.alxswe.com/rltoken/XD_RckEgjds0UkoMsfxp2A)
