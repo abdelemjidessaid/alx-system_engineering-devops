@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# connect me with the web server 01.
+sudo ssh ubuntu@100.26.231.82 -i ~/.ssh/school
