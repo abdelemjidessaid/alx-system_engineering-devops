@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# script that do a backup of all databases on server and save it as tar archive
+sudo mysqldump -u root -p "$1" --all-databases > backup.sql
+sudo tar czvf "$(date +%d-%m-%Y).tar.gz" backup.sql
