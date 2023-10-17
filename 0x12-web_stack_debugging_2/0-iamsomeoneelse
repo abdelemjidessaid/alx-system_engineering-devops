@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# script that shows the current system user
+su -c "whoami $1"
