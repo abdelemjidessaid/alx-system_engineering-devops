@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# script that configs the Nginx to start on user nginx,
+# and listen on port 8080.
+
+# create new user named 'nginx'
+sudo useradd --no-create-home --shell /bin/bash --system --password '*' nginx
+# replace {#user www-data} to {user nginx} in nginx config file:
+sudo sed -i 's/#user www-data/user nginx/' /etc/nginx/nginx.conf
+# replace port 80 with port 8080 in sites-availabe config file:
+sudo sed -i 's/80/8080/g' /etc/nginx/sites-available/default
+# change the permissions:
+sudo chmod 644 /etc/nginx/nginx.conf
+# kill apache2 process:
+sudo pkill apache2
+# start the nginx:
+sudo -u nginx service nginx start

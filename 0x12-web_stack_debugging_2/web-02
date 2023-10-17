@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# login to web-02 server
+ssh ubuntu@100.26.171.172 -i ~/.ssh/school
