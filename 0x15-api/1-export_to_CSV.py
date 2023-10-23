@@ -24,7 +24,7 @@ if __name__ == '__main__':
     # convert the retrieved data to JSON:
     todos_json = todos_data.json()
     user_json = user_data.json()
-    username = user_json.get('name')
+    username = user_json.get('username')
     # export data as CSV file:
     with open('{}.csv'.format(str(user_id)), 'w', newline='') as csv_file:
         writer = csv.writer(csv_file, delimiter=',', quoting=csv.QUOTE_ALL)
