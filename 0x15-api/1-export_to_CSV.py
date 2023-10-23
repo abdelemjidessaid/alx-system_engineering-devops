@@ -30,6 +30,6 @@ if __name__ == '__main__':
         writer = csv.writer(csv_file, delimiter=',', quoting=csv.QUOTE_ALL)
         for task in todos_json:
             writer.writerow(
-                [str(user_id), username,
-                task.get('completed'), task.get('title')]
+                [str(user_id), username, task.get('completed'),
+                 task.get('title')]
             )
