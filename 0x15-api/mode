@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+# change mode of all python files
+chmod u+x *.py
