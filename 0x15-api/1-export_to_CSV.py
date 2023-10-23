@@ -26,9 +26,10 @@ if __name__ == '__main__':
     user_json = user_data.json()
     username = user_json.get('name')
     # export data as CSV file:
-    with open('{}.csv'.format(user_id), 'w', newline='') as csv_file:
+    with open('{}.csv'.format(str(user_id)), 'w', newline='') as csv_file:
         writer = csv.writer(csv_file, delimiter=',', quoting=csv.QUOTE_ALL)
         for task in todos_json:
             writer.writerow(
-                [user_id, username, task.get('completed'), task.get('title')]
+                [str(user_id), username,
+                task.get('completed'), task.get('title')]
             )
