@@ -15,7 +15,7 @@ def recurse(subreddit, hot_list=[]):
     global after
     url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
     agent = {
-        "User-Agent": "linux:0x16.api.advanced:v1.0.0 (by /u/bdov_)"
+        "User-Agent": "my_user_agent_data"
     }
     para = {
         'after': after
