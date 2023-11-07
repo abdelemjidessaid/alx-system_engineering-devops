@@ -14,14 +14,13 @@ def top_ten(subreddit):
     headers = {
         "User-Agent": "linux:0x16.api.advanced:v1.0.0 (by /u/bdov_)"
     }
-    response = requests.get(url=url, headers=headers, allow_redirects=False)
+    response = requests.get(
+        url=url, headers=headers,
+        allow_redirects=False, params={"limit": 9}
+    )
     if response.status_code == 404:
         print("None")
         return
     data_json = response.json().get('data').get('children')
-    count = 0
     for i in data_json:
         print(i.get('data').get('title'))
-        count += 1
-        if (count == 9):
-            break
