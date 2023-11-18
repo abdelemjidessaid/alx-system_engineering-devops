@@ -14,11 +14,11 @@ ExecStart=/home/ubuntu/.local/bin/gunicorn --workers 3 --bind 0.0.0.0:5003 web_d
 # restart the service if it fails
 Restart=always
 # redirect standard output to syslog
-StandardOuput=append:/tmp/airbnb-access.log
+StandardOutput=append:/tmp/airbnb-access.log
 # redirect standard error to syslog
 StandardError=append:/tmp/airbnb-error.log
 # identify for syslog messages
-SysLogIdentifier=gunicorn
+SyslogIdentifier=gunicorn
 
 [Install]
 # enable the service for multi-user.target
